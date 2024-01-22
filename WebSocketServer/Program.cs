@@ -4,7 +4,7 @@ using System.Text;
 
 /**
  * Esempio di un server WebSocket in C# con .NET 8
- * Il server si occupa di inviare ogni secondo un messaggio contente la data e l'ora corrente
+ * Il server si occupa di ricevere messaggi da un client e inviarli in broadcast a tutti gli altri client connessi
  */
 
 var builder = WebApplication.CreateBuilder(args);

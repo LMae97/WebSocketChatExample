@@ -1,6 +1,11 @@
 ﻿using System.Net.WebSockets;
 using System.Text;
 
+/**
+ * Esempio di un client WebSocket in C# con .NET 8
+ * Il client si occupa di inviare messaggi al server e di ricevere i messaggi inviati dagli altri client
+ */
+
 var ws = new ClientWebSocket();
 
 string name;
